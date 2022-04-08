@@ -1,0 +1,14 @@
+[package]
+name = "cmph-sys"
+version = "0.1.0"
+authors = ["Piotr Beling <qwak82@gmail.com>"]
+edition = "2021"
+description = "Low-level bindings for CMPH (C Minimal Perfect Hashing Library)"
+license = "LGPL or MPL 1.1"
+readme = "README.md"
+keywords = ["hashing", "hash", "minimal", "perfect"]
+categories = ["external-ffi-bindings", "data-structures", "compression"]
+repository = "https://github.com/beling/cmph-sys"
+
+[build-dependencies]
+bindgen = "0.59"
